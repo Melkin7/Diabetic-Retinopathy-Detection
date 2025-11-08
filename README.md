@@ -1,15 +1,15 @@
 <div align="center">
 
-# 🩺 **Retinal Blindness (Diabetic Retinopathy) Detection**
-### _An AI-Powered GUI System for Intelligent Retinal Screening_
+# 🩺 **Retinal AI – Diabetic Retinopathy Detection Network**
+### _AI-Powered Retinal Blindness Detection System (Tamil Nadu Network)_
 
 ---
 
 👩‍💻 **Developed by:**  
 **Nhowmitha Suresh**  
 _3rd Year | B.Tech – Artificial Intelligence & Data Science_  
-📧 **Email:** [nhowmi05@gmail.com](mailto:nhowmi05@gmail.com)  
-🔗 **LinkedIn:** [Nhowmitha Suresh](https://www.linkedin.com)
+📧 [nhowmi05@gmail.com](mailto:nhowmi05@gmail.com)  
+🔗 [LinkedIn – Nhowmitha Suresh](https://www.linkedin.com)  
 
 ---
 
@@ -17,40 +17,39 @@ _3rd Year | B.Tech – Artificial Intelligence & Data Science_
 
 ## 🌌 Overview
 
-**Retinal AI** is an intelligent deep learning system that detects **Diabetic Retinopathy (DR)** from retinal fundus images using **ResNet-based CNNs**.  
-It automates early blindness detection and provides real-time predictions through an elegant, dark-themed **Tkinter GUI**.
+**Retinal AI** is a deep learning–based system designed to detect and classify **Diabetic Retinopathy (DR)** severity from retinal fundus images.  
+It uses **ResNet-based CNN models (PyTorch)** and a **modern Tkinter GUI** with a dark gradient theme for a professional hospital interface.
 
-🧠 The model classifies retinal scans into five severity levels — helping hospitals, clinics, and diagnostic centers to identify potential blindness risks *instantly and accurately.*
+The system allows clinicians and users to upload retinal images, get real-time DR predictions, view reports, and access verified ophthalmologists across **Tamil Nadu**.
 
 ---
 
 ## 💡 Problem Statement
 
-> Diabetic Retinopathy is the **leading cause of preventable blindness** among working-age adults.
+> Diabetic Retinopathy (DR) is the leading cause of preventable blindness in adults.
 
-- Manual retinal image grading requires expert ophthalmologists and is time-intensive.
-- Early detection can prevent blindness — but screening large populations manually is **not scalable**.
-
-Hence, the **need for AI** — a fast, reliable, and affordable DR detection system.
+- Manual diagnosis requires trained ophthalmologists and is time-consuming.  
+- Lack of experts in rural areas delays detection and treatment.  
+- AI-based screening systems can reduce diagnostic load and save vision early.
 
 ---
 
 ## 🚀 Motivation
 
-In rural and under-resourced areas, ophthalmologists are scarce.  
-This project aims to **bridge the healthcare gap** by providing an **AI-powered retinal screening assistant**.
+In Tamil Nadu and similar regions, early detection of DR can prevent permanent blindness.  
+**Retinal AI** supports medical professionals by providing fast, reliable, and automated DR detection.
 
-🕊️ Inspired by:
-- **Aravind Eye Hospital (Madurai, Tamil Nadu)**
-- **Asia Pacific Tele-Ophthalmology Society (APTOS)**  
+Inspired by institutions like:
+- 🏥 **Aravind Eye Hospital (Madurai)**
+- 🌐 **APTOS (Asia Pacific Tele-Ophthalmology Society)**  
 
-These institutions emphasize making eye care *affordable, accessible, and AI-integrated* across India.
+These organizations aim to democratize eye care through innovation.
 
 ---
 
 ## 🧠 Solution Overview
 
-A pretrained **ResNet152** (PyTorch) model fine-tuned to classify 5 DR severity levels:
+A **ResNet-based CNN** model (trained on APTOS 2019 dataset) predicts DR severity from 0–4:
 
 | Label | Condition |
 |:------:|:-----------|
@@ -60,23 +59,19 @@ A pretrained **ResNet152** (PyTorch) model fine-tuned to classify 5 DR severity 
 | 3 | 🔴 Severe |
 | 4 | ⚫ Proliferative DR |
 
-The GUI-based system allows users to:
-- Log in / Sign up securely  
-- Upload retinal fundus images  
-- Get real-time DR predictions  
-- Store and review results locally  
+Users can log in, upload retinal images, get a diagnostic prediction, and contact nearby ophthalmologists for follow-up.
 
 ---
 
 ## 🧩 Key Features
 
-✅ **AI-based DR Classification (ResNet152/ResNet18)**  
-✅ **Dark-themed GUI** with gradient & neon hover effects  
-✅ **SQLite Integration** for Login & Report Storage  
-✅ **Offline Execution** – works without internet  
-✅ **About, Contact & Review Pages** integrated  
-✅ **Doctor Directory (Tamil Nadu)** with real-time contacts  
-✅ **Future-ready modular design** for hospital integration  
+✅ AI-based DR classification (ResNet152 / ResNet18)  
+✅ Modern dark-themed GUI (Tkinter)  
+✅ Gradient styling & button hover effects  
+✅ SQLite-based login and user data storage  
+✅ Real-time DR prediction with recommendations  
+✅ Review, Contact, and About pages integrated  
+✅ Offline operation (no cloud dependency)
 
 ---
 
@@ -86,9 +81,9 @@ The GUI-based system allows users to:
 |:----------|:----------------|
 | **Deep Learning** | PyTorch, TorchVision |
 | **GUI Development** | Tkinter |
-| **Image Processing** | Pillow (PIL), OpenCV |
+| **Image Processing** | OpenCV, Pillow (PIL) |
 | **Database** | SQLite |
-| **Programming Language** | Python 3.11 |
+| **Language** | Python 3.11 |
 | **IDE** | Visual Studio Code |
 | **OS Tested** | Windows 10 / 11 |
 
@@ -98,14 +93,14 @@ The GUI-based system allows users to:
 
 Retinal_AI/
 │
-├── blindness.py # Tkinter GUI (Main application)
-├── model.py # CNN Model Definition (ResNet)
-├── classifier.pt # Trained model weights (local)
-├── dr_users.db # SQLite Database
-├── train_model.py # Model Training Script
-├── prepare_data.py # Dataset Preparation Script
+├── blindness.py # Tkinter GUI (Main app)
+├── model.py # CNN model for DR classification
+├── classifier.pt # Pretrained model weights (local only)
+├── dr_users.db # SQLite database (auto-created)
+├── prepare_data.py # Dataset organization script
+├── train_model.py # Model training code
 ├── images/ # Screenshots for README
-├── sampleimages/ # Demo retinal images
+├── sampleimages/ # Example test images
 └── requirements.txt # Python dependencies
 
 yaml
@@ -121,9 +116,9 @@ Copy code
 ↓
 [3] AI Model Predicts DR Severity
 ↓
-[4] Prediction Displayed in GUI
+[4] Displays Result & Recommendation
 ↓
-[5] Data Saved to SQLite Database
+[5] User Can Review / Contact Doctor
 
 yaml
 Copy code
@@ -132,35 +127,58 @@ Copy code
 
 ## 🖼️ GUI Snapshots
 
-### 🔐 Login & Signup
-![Login Page](images/gui1.JPG)
+### 🌃 Welcome Screen  
+> Clean, futuristic login and sign-up interface with gradient styling.  
+![Welcome Screen](images/Screenshot_2025-11-08_180030.png)
 
-### 🩻 Prediction Window
-![Prediction Page](images/gui3.JPG)
+---
 
-### 📊 DR Classification Visualization
-![DR Visualization](images/mat.png)
+### 🩻 Retinal Image Prediction  
+> Upload a retinal image and instantly view the AI-based DR severity and recommendation.  
+![Prediction Screen](images/f95ea3fc-3ebf-4580-a50c-8b5062eaffdb.png)
+
+---
+
+### 🧭 Navigation Features  
+- 🔐 **Login / Sign Up:** Secure user access  
+- 📁 **Upload Report:** Upload and analyze retinal fundus images  
+- 🩺 **Doctors Directory:** Tamil Nadu verified ophthalmologist contacts  
+- 💬 **Review Page:** Collect patient feedback  
+- ℹ️ **About Page:** Learn about the project  
+- 🚪 **Logout:** Safely exit session  
+
+---
+
+## 💎 Design Aesthetic
+
+🎨 **Theme:** Deep midnight gradient (Black → Teal → Cyan)  
+💡 **Font:** Segoe UI (bold, modern)  
+✨ **Buttons:** Neon hover animation  
+🧠 **Framework:** Native Tkinter – optimized for hospital use  
+🌙 **Mode:** Dark only (eye-friendly)
 
 ---
 
 ## 🧪 Dataset
 
-📂 **Dataset Used:** [APTOS 2019 Blindness Detection](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
+📂 **Dataset:** [APTOS 2019 Blindness Detection](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
 
-- 3,662 high-resolution retinal images labeled with DR severity (0–4)
-- Images preprocessed (resized, normalized)
-- Train/Validation split used for model training
+- 3,662 labeled fundus images  
+- Each labeled with DR severity level (0–4)  
+- Preprocessed (resize, normalize, augmentation)
 
 ---
 
 ## 🔬 Model Architecture
 
-- **Base Model:** ResNet152 (PyTorch pretrained)
-- **Output Layer:** 5 neurons (Softmax for 5 DR stages)
-- **Loss Function:** NLLLoss  
-- **Optimizer:** Adam (lr = 1e-5)
-- **Validation Accuracy:** ~85.6%  
-- **Training Duration:** 2–5 Epochs (depending on model type)
+| Component | Description |
+|:-----------|:-------------|
+| **Base Model** | ResNet152 (PyTorch pretrained) |
+| **Output Layer** | 5 neurons (Softmax for 5 DR classes) |
+| **Loss Function** | Negative Log-Likelihood Loss (NLLLoss) |
+| **Optimizer** | Adam (lr = 1e-5) |
+| **Validation Accuracy** | ≈ 85.6% |
+| **Training Duration** | 2–5 Epochs (CPU optimized) |
 
 ---
 
@@ -169,18 +187,18 @@ Copy code
 ### 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
-2️⃣ Run the Application
+2️⃣ Run the App
 bash
 Copy code
 python blindness.py
-3️⃣ Default Credentials
+3️⃣ Default Login
 Username	Password
 admin	admin123
 
 4️⃣ Upload Retinal Image
-Select any .jpg or .png image → Get instant AI prediction.
+Select any .jpg / .png → Instantly get DR severity prediction.
 
-🩺 Contact Ophthalmologists (Tamil Nadu)
+🩺 Verified Ophthalmologists (Tamil Nadu)
 Hospital	Location	Contact
 Aravind Eye Hospital	Madurai	+91 452 435 6100
 Sankara Nethralaya	Chennai	+91 44 4227 1500
@@ -188,25 +206,25 @@ Dr. Agarwal’s Eye Hospital	Coimbatore	+91 422 4411 111
 Lotus Eye Hospital	Salem	+91 427 2770 777
 Vasan Eye Care	Trichy	+91 431 241 4444
 
-📞 Contacts are for legitimate clinical reference only.
+🩶 Contacts are provided for legitimate clinical awareness only.
 
 💬 Review & Feedback Page
-Patients can provide:
+Patients can:
 
-Service satisfaction
+Rate prediction accuracy
 
-Clarity of diagnosis
+Leave feedback on interface experience
 
-Doctor consultation feedback
+Comment on doctor recommendations
 
-🗂️ Feedback gets stored in dr_users.db automatically.
+All reviews are stored securely in the local database.
 
 🌟 Future Enhancements
-🔹 Web deployment (Flask / Streamlit)
-🔹 Federated Learning for privacy-focused AI
-🔹 Explainable AI visualizations for medical transparency
-🔹 Real hospital API integration
-🔹 Multi-language GUI (English + Tamil)
+🔹 Web version using Flask or Streamlit
+🔹 Explainable AI (XAI) heatmaps for lesion visualization
+🔹 Multi-language GUI (English & Tamil)
+🔹 Federated learning for privacy-focused medical AI
+🔹 Integration with hospital management systems (HMS)
 
 🧑‍💻 Developer Info
 👩 Nhowmitha Suresh
@@ -215,13 +233,11 @@ Doctor consultation feedback
 📍 Tamil Nadu, India 🇮🇳
 
 💖 Acknowledgments
-This work is inspired by the vision of:
+Special thanks to:
 
-🏥 Aravind Eye Hospital, Madurai
+Aravind Eye Hospital, Madurai – for inspiring this research vision
 
-🌐 APTOS (Asia Pacific Tele-Ophthalmology Society)
-
-Their mission to make eye care accessible to everyone inspired this project.
+APTOS (Asia Pacific Tele-Ophthalmology Society) – for open datasets and global awareness
 
 🩶 Quote
 “Empowering Vision Through Intelligence.” 👁️
@@ -231,18 +247,3 @@ Their mission to make eye care accessible to everyone inspired this project.
 Together, let’s advance AI in healthcare. 🧠💙
 
 </div> ```
-✅ What You Should Do Now
-Copy the above into a new file named README.md
-
-Place it in your main project folder (Retinal_AI/)
-
-Run these commands:
-
-bash
-Copy code
-git add README.md
-git commit -m "Added professional dark-themed README.md"
-git push origin main
-Visit your repo →
-👉 https://github.com/Nhowmitha-suresh/Retinal_AI
-You’ll see your README come alive beautifully ✨
