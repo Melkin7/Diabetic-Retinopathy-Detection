@@ -185,7 +185,7 @@ Copy code
 ## ⚙️ How to Run Locally
 
 ### 1️⃣ Install Dependencies
-```bash
+bash
 pip install -r requirements.txt
 2️⃣ Run the App
 bash
@@ -246,4 +246,4 @@ APTOS (Asia Pacific Tele-Ophthalmology Society) – for open datasets and global
 💫 If you found this project inspiring, give it a ⭐ on GitHub!
 Together, let’s advance AI in healthcare. 🧠💙
 
-</div> ```
+</div> 
