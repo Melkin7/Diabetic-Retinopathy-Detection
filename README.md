@@ -9,10 +9,9 @@
 
 <img width="1470" height="956" alt="Screenshot 2026-01-07 at 08 49 34" src="https://github.com/user-attachments/assets/446b9c47-e108-4198-89e3-70cf491768c6" />
 
-<img width="1470" height="956" alt="Screenshot 2026-01-07 at 08 51 57" src="https://github.com/user-attachments/assets/39edf0e3-bef1-41c1-94bf-2ae669ca6476" />
-
  <img width="1470" height="956" alt="Screenshot 2026-01-07 at 08 49 01" src="https://github.com/user-attachments/assets/1d4b7cd6-90ce-4d25-b10b-c010bbc49e6b" />
 
+ <img width="1470" height="956" alt="Screenshot 2026-01-07 at 08 51 57" src="https://github.com/user-attachments/assets/39edf0e3-bef1-41c1-94bf-2ae669ca6476" />
 
 </div>
 
