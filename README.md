@@ -1,15 +1,8 @@
+<<<<<<< HEAD
 <div align="center">
 
 # 🩺 **Retinal AI – Diabetic Retinopathy Detection Network**
 ### _AI-Powered Retinal Blindness Detection System (Tamil Nadu Network)_
-
----
-
-👩‍💻 **Developed by:**  
-**Nhowmitha Suresh**  
-_3rd Year | B.Tech – Artificial Intelligence & Data Science_  
-📧 [nhowmi05@gmail.com](mailto:nhowmi05@gmail.com)  
-🔗 [LinkedIn – Nhowmitha Suresh](https://www.linkedin.com)  
 
 ---
 ## 🖼️ GUI Snapshots
@@ -207,3 +200,4 @@ APTOS (Asia Pacific Tele-Ophthalmology Society) – for open datasets and global
 Together, let’s advance AI in healthcare. 🧠💙
 
 </div> 
+=======
