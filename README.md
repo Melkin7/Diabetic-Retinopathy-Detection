@@ -7,11 +7,6 @@
 ---
 ## 🖼️ GUI Snapshots
 
-<img width="1218" height="807" alt="Screenshot 2026-01-07 at 08.49.01" src="https://github.com/user-attachments/assets/b659facc-25af-4d94-8ebb-77e6cf4a2d1d" />
-<img width="1212" height="823" alt="Screenshot 2026-01-07 at 08.51.57" src="https://github.com/user-attachments/assets/1dac759d-a43a-487b-b62c-fa0428b449a6" />
-<img width="1200" height="795" alt="Screenshot 2026-01-07 at 08.49.34" src="https://github.com/user-attachments/assets/82500b65-4243-45e4-8d17-d935df6fb865" />
-
-
 </div>
 
 ## 🌌 Overview
